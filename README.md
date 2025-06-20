@@ -1,17 +1,30 @@
-<<<<<<< HEAD
-# React + Vite
+# 🎬 Loca-Shop - Sistema de Locação de Filmes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um sistema completo para **locação de filmes**, desenvolvido com as tecnologias **Node.js**, **React** e **MongoDB**.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Node.js** – Backend responsivo com Express.js para gerenciamento de rotas e regras de negócio.
+- **React** – Interface moderna, rápida e reativa para interação com o sistema.
+- **MongoDB** – Banco de dados NoSQL para armazenar informações sobre filmes, usuários e locações.
 
-## Expanding the ESLint configuration
+## 🛠 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Loca-Shop
-Projeto React, como composição da nota de nossa P2 de Desenvolvimento Web
->>>>>>> 59ad72948ff7abf93cf89eef13842eb97ce19dc0
+- Cadastro, listagem e remoção de filmes.
+- Sistema de locação com registro de clientes e histórico.
+- Tela administrativa para gerenciamento de filmes e locações.
+- Integração entre frontend e backend via API REST.
+
+## 📦 Instalação e execução
+
+1. Clone este repositório:
+   ```bash
+   git clone git@github.com:Nicolas-Florencio/Loca-Shop.git
+
+2. Instale as dependências:
+   ```bash
+   cd front
+   npm install
+
+   cd api
+   npm install
