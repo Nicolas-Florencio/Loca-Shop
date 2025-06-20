@@ -1,0 +1,45 @@
+body {
+    background: url('/fundo.png');
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #272727;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.logoNav {
+    width: 8%;
+}
+
+.itens {
+    display: flex;
+    gap: 1rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.bannerVader {
+    width: 100%;
+    height: 50%;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 14rem;
+    color: #ffff;
+}

@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
     return (
         <>
-            <img src="/logoPequena.png" alt="logo" />
             <nav>
+                <img className='logoNav' src="/logoPequena.png" alt="logo" />
                 <div className="itens">
-                    <Link to = "/">Inicio</Link>
-                    <Link to = "/filmes">Filmes</Link>
-                    <Link to = "/login">Login</Link>
-                    <Link to = "/cadastro">Cadastro</Link>
+                    <Link className='link' to = "/">Inicio</Link>
+                    <Link className='link' to = "/filmes">Filmes</Link>
+                    <Link className='link' to = "/login">Login</Link>
+                    <Link className='link' to = "/cadastro">Cadastro</Link>
                 </div>
             </nav>
         </>
