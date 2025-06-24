@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "68573a0e1152f5f3f577c69b"
+  },
+  "nome": "Sonic 3",
+  "genero": "Ação e Aventura"
+},
+{
+  "_id": {
+    "$oid": "68573a2d1152f5f3f577c69d"
+  },
+  "nome": "Homem Aranha sem Volta pra Casa",
+  "genero": "Ação e Aventura"
+},
+{
+  "_id": {
+    "$oid": "68573a471152f5f3f577c69f"
+  },
+  "nome": "Dragon Ball super Broly",
+  "genero": "Ação e Aventura"
+},
+{
+  "_id": {
+    "$oid": "68573a5b1152f5f3f577c6a1"
+  },
+  "nome": "Star Wars o Despertar da Força",
+  "genero": "Ação e Aventura"
+}]
