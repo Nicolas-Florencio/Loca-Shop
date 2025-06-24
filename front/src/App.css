@@ -10,10 +10,11 @@ nav {
     background-color: #272727;
     font-size: 1.1rem;
     font-style: italic;
+    max-height: 14vh;
 }
 
 .logoNav {
-    width: 8%;
+    min-width: 4%;
 }
 
 .itens {
@@ -26,6 +27,53 @@ nav {
     color: #ffff;
 }
 
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    color: #ffff;
+    font-size: 1.4rem;
+    margin: 4rem;
+    font-style: italic;
+}
+
+.banner img {
+    height: 30%;
+    width: 30%;
+    border-radius: 25%;
+    border: 1px solid white;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 40%;
+}
+
+.texto h2 {
+    background: linear-gradient(90deg, #FF0000, #009DFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner h2 {
+    font-style: italic;
+
+}
+
+.banner button {
+    padding: 0.8rem;
+    background-color: #000;
+    color: #fff;
+    font-style: italic;
+    border: 1px solid;
+    border-radius: 1rem;
+    width: fit-content;
+    margin-top: 1.4rem;
+}
+
 .bannerVader {
     width: 100%;
     height: 50%;
@@ -35,6 +83,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
 }
 
 .container {
@@ -42,4 +91,6 @@ nav {
     align-items: center;
     gap: 14rem;
     color: #ffff;
+    font-style: italic;
+    font-size: 1.8rem;
 }

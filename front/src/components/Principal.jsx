@@ -4,11 +4,16 @@ export default function Principal() {
             <div className="titulo">
                 <div className="container">
                     <img className="logoMaior" src="/logoMaior.png" alt="logo" />
-                    <h1>LocaShop</h1>
+                    <h1>LocaShop<br />Bem-Vindo</h1>
                 </div>
                 <div className="banner">
-                    <h2>Bem-Vindo</h2>
-                    <img className="bannerVader" src="darthVader.jpg" alt="darth vader" />
+                    <div className="texto">
+                        <span>Aluge</span>
+                        <h2>Filmes e Séries</h2>
+                        <p>Filmes e Séries, tudo em um lugar só, alugue de forma fácil e rapida</p>
+                        <button>Explorar Catalogo</button>
+                    </div>
+                    <img src="/darthVader.jpg" alt="vaderzin" />
                 </div>
             </div>
         </main>
