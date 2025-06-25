@@ -12,9 +12,11 @@ export default function Footer() {
                 <i>Fatec Marilia</i>
             </div>
             <div className="contato">
-                <p>Contato</p>
-                <a href="https://facebook.com" target="blank"><img src="/facebook.png" alt="facebook" /></a>
-                <a href="https://instagram.com" target="blank"><img src="/instagram.png" alt="instagram" /></a>
+                <p>Contato:</p>
+                <div className="containerSocial">
+                    <a href="https://facebook.com" target="blank"><img src="/facebook.png" alt="facebook" /></a>
+                    <a href="https://instagram.com" target="blank"><img src="/instagram.png" alt="instagram" /></a>
+                </div>
             </div>
         </footer>
     )

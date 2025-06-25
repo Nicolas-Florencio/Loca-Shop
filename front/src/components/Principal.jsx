@@ -8,12 +8,12 @@ export default function Principal() {
                 </div>
                 <div className="banner">
                     <div className="texto">
-                        <span>Aluge</span>
+                        <span>Alugue</span>
                         <h2>Filmes e Séries</h2>
                         <p>Filmes e Séries, tudo em um lugar só, alugue de forma fácil e rapida</p>
                         <button>Explorar Catalogo</button>
                     </div>
-                    <img src="/darthVader.jpg" alt="vaderzin" />
+                    <img src="/filmes.png" alt="vaderzin" />
                 </div>
             </div>
         </main>
