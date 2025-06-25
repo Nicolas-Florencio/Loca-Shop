@@ -15,3 +15,18 @@ export async function loginUsuario({ email, senha }) {
       cpf: usuario.cpf
     };
 }
+
+export async function cadastrarUsuario({ email, senha, cpf }) {
+  // Verifica se já existe usuário com o mesmo email ou cpf
+  const usuarioExistente = await Usuario.findOne({
+    $or: [{ email }, { cpf }]
+  });
+
+  if (usuarioExistente) {
+    throw new Error('Usuário já cadastrado com este email ou CPF');
+  }
+
+  // Cria novo usuário (aqui sem hash, mas recomendo hash para produção)
+  const novoUsuario = new Usuario({ email, senha, cpf });
+  return await novoUsuario.save();
+}

@@ -4,10 +4,11 @@ export function rotasAluguel(app) {
     // Criar um aluguel
     app.post("/api/aluguel", async (req, res) => {
         try {
-            const { usuarioId, filmeId, dataDevolucao } = req.body;
-            const aluguel = await cadastrarAluguel({ usuarioId, filmeId, dataDevolucao });
+            const { usuarioId, filmeId, dataAluguel } = req.body;
+            const aluguel = await cadastrarAluguel({ usuarioId, filmeId, dataAluguel });
             res.status(201).json(aluguel);
-        } catch (erro) {
+        }
+        catch (erro) {
             res.status(500).json({ mensagem: "Erro ao criar aluguel", erro });
         }
     });
