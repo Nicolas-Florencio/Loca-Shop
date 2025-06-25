@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 // Páginas
 import Principal from './components/Principal' // sua "home"
 import Cadastro from './pages/Cadastro'       // nova página
+import Login from './pages/Login'       // nova página
+import Filme from './pages/Filme'       // nova página
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Principal />} />
         <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/filmes" element={<Filme />} />
       </Routes>
 
       <Footer />
