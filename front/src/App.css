@@ -206,8 +206,7 @@ button:hover {
 .containerCards {
     color: #fff;
     display: flex;
-    justify-content: space-between;
-    height: 50rem;
+    height: 80vh;
 }
 
 .card {
@@ -216,9 +215,7 @@ button:hover {
     gap: 1rem;
     padding: 1rem;
     width: 25%;
-
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .card img {

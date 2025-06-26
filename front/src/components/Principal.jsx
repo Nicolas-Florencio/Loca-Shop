@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom';
+
+
 export default function Principal() {
     return (
         <main>
@@ -11,7 +14,7 @@ export default function Principal() {
                         <span>Alugue</span>
                         <h2>Filmes e Séries</h2>
                         <p>Filmes e Séries, tudo em um lugar só, alugue de forma fácil e rapida</p>
-                        <button>Explorar Catalogo</button>
+                        <button><Link className='link' to = "/filmes">Explorar Catalogo</Link></button>
                     </div>
                     <img src="/filmes.png" alt="vaderzin" />
                 </div>
